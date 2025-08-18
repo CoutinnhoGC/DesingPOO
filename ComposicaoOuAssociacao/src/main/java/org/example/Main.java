@@ -5,6 +5,12 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Cavalo cavalo = new Cavalo();
-        cavalo.
+
+        cavalo.domir();
+
+
+        Coruja coruja = new Coruja();
+
+        coruja.dormir();
     }
 }

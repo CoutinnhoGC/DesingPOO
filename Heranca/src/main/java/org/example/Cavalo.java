@@ -5,18 +5,4 @@ public class Cavalo extends Animal {
         super(nome, raca, cor, idade);
     }
 
-    @Override
-    public void comer() {
-        System.out.println("cachorre come");
-    }
-
-    @Override
-    public void dormir() {
-        System.out.println("cachorro dorme");
-    }
-
-    @Override
-    public void fazerSom() {
-        System.out.println("cachorro relincha");
-    }
 }
